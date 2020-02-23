@@ -1,7 +1,4 @@
-using hostname.
-
-[code language="java"]
-node {
+node('master') {
 
     withMaven(maven:'M3') {
 
